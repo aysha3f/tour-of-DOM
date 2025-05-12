@@ -7,5 +7,8 @@ for(const section of sections){
     section.style.paddingLeft = '7px'
     section.style.backgroundColor = 'lightgray';
 }
+// const placesContainer = document.getElementById('places-container');
+// placesContainer.style.backgroundColor = 'yellow';
+
 const placesContainer = document.getElementById('places-container');
-placesContainer.style.backgroundColor = 'yellow'
+placesContainer.classList.add( 'yellow-bg');
