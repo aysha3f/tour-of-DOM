@@ -11,4 +11,5 @@ for(const section of sections){
 // placesContainer.style.backgroundColor = 'yellow';
 
 const placesContainer = document.getElementById('places-container');
-placesContainer.classList.add( 'yellow-bg');
+
+placesContainer.classList.add( 'text-center');
